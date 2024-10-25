@@ -1,0 +1,60 @@
+/* CSS Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0; 
+  background-color: red; /* Background color for the entire page */
+}
+
+header {
+  background-color: #333; /* Header background color */
+  color: #fff; /* Header text color */
+  padding: 20px;
+  text-align: center; /* Center header text */
+}
+
+main {
+  padding: 20px;
+  max-width: 800px; /* Set a maximum width for the main content */
+  margin: auto; /* Center the main content */
+}
+
+section {
+  margin-bottom: 40px; /* Space below each section */
+}
+
+table {
+  width: 100%; /* Table takes full width of its container */
+  border-collapse: collapse; /* Remove space between table cells */
+  margin-top: 20px; /* Space above the table */
+}
+
+th, td {
+  padding: 10px; /* Padding inside table cells */
+  text-align: left; /* Left align text in table cells */
+  border-bottom: 1px solid #ddd; /* Border below table rows */
+}
+
+form {
+  max-width: 400px; /* Set a maximum width for the form */
+  margin: auto; /* Center the form horizontally */
+}
+
+form input, form select {
+  width: 100%; /* Inputs and selects take full width of the form */
+  padding: 10px; /* Padding inside inputs and selects */
+  margin-bottom: 10px; /* Space below inputs and selects */
+}
+
+button {
+  background-color: #333; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* No border for the button */
+  padding: 10px 20px; /* Padding inside the button */
+  cursor: pointer; /* Pointer cursor for button */
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: yellow; /* Change background color on hover */
+}
